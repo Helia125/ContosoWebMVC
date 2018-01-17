@@ -34,7 +34,7 @@ namespace Contoso.Service
     public interface IStudentService
     {
         IEnumerable<Student> GetStudents();
-        Student GetStudentByLastName(string lastname);//unusally parameter is lower case.
+        Student GetStudentByLastName(string lastname);//usually parameter is lower case.
 
     }
 }
