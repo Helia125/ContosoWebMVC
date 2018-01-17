@@ -19,5 +19,7 @@ namespace Contoso.Model
         public string State { get; set; }
         public string ZipCode { get; set; }
         public string Phone { get; set; }
+
+        public ICollection<Role> Role { get; set; }//one person can have multi roles
     }
 }

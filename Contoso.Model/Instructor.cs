@@ -12,5 +12,7 @@ namespace Contoso.Model
     {
         public DateTime? HireDate{ get; set; }
         public ICollection<Department> Department { get; set; }
+
+        public ICollection<Course> Course { get; set; }//// one instructor can have multi course
     }
 }

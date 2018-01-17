@@ -78,6 +78,18 @@
     <Compile Include="Migrations\201801161456211_AddEnrollmentTable.Designer.cs">
       <DependentUpon>201801161456211_AddEnrollmentTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801170136071_AddRoleTable.cs" />
+    <Compile Include="Migrations\201801170136071_AddRoleTable.Designer.cs">
+      <DependentUpon>201801170136071_AddRoleTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801170221532_AddInstructorCourseTable.cs" />
+    <Compile Include="Migrations\201801170221532_AddInstructorCourseTable.Designer.cs">
+      <DependentUpon>201801170221532_AddInstructorCourseTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801170226504_AddPersonRolesTable.cs" />
+    <Compile Include="Migrations\201801170226504_AddPersonRolesTable.Designer.cs">
+      <DependentUpon>201801170226504_AddPersonRolesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,6 +127,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801161456211_AddEnrollmentTable.resx">
       <DependentUpon>201801161456211_AddEnrollmentTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801170136071_AddRoleTable.resx">
+      <DependentUpon>201801170136071_AddRoleTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801170221532_AddInstructorCourseTable.resx">
+      <DependentUpon>201801170221532_AddInstructorCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801170226504_AddPersonRolesTable.resx">
+      <DependentUpon>201801170226504_AddPersonRolesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

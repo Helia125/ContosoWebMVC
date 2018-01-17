@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using Contoso.Model;
+using System.Data;
 
 namespace Contoso.Data
 {
@@ -20,6 +21,7 @@ namespace Contoso.Data
         public DbSet<Department> department { get; set; }
         public DbSet<Course> course { get; set; }
         public DbSet<Instructor> instructors { get; set; }
+        public DbSet<Role> roles { get; set; }
 
     }
 }

@@ -55,8 +55,10 @@
     <Compile Include="Department.cs" />
     <Compile Include="Enrollment.cs" />
     <Compile Include="Instructor.cs" />
+    <Compile Include="OfficeAssignment.cs" />
     <Compile Include="People.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Role.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -18,6 +18,7 @@ namespace Contoso.Model
         public Department Department { get; set; }
         public ICollection<Enrollment> Enrollment { get; set; }
 
+        public ICollection<Instructor> Instructor{ get; set; }//one course can have multi instructor
     }
 
 }
