@@ -15,7 +15,7 @@ namespace Contoso.Model
         public string Title { get; set; }
         public int Credits { get; set; }
         public int DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public virtual Department Department { get; set; }//use lazy loading to fetch the departmentName from the department table to the course table
         public ICollection<Enrollment> Enrollment { get; set; }
 
         public ICollection<Instructor> Instructor{ get; set; }//one course can have multi instructor

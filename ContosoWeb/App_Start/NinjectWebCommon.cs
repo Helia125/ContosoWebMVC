@@ -71,11 +71,13 @@ namespace Contoso.App_Start
             kernel.Bind<IStudentRepository>().To<StudentRepository>();
             kernel.Bind<IPersonRepository>().To<PersonRepository>();
             kernel.Bind<IDepartmentRepository>().To<DepartmentRepository>();
+            kernel.Bind<ICourseRepository>().To<CourseRepository>();
 
             //Services
             kernel.Bind<IStudentService>().To<StudentService>();
             kernel.Bind<IPersonService>().To<PersonService>();
             kernel.Bind<IDepartmentService>().To<DepartmentService>();
+            kernel.Bind<ICourseService>().To<CourseService>();
             //means durning the runtime, whenever when ninject find IDepartmentService virtical interface, it
             //it is gonna inject instance of DepartmentService
         }
